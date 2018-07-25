@@ -39,27 +39,27 @@ In addition to the entry file, there will be four main scripts involved in this 
 
 ### Implementation Timeline
 
-**Day 1**: Setup all necessary Node modules and webpack. Write a basic entry file and the skeletons of the scripts mentioned above.
+**Day 1**: Setup all necessary Node modules and webpack. Write a basic entry file and the skeletons of the scripts mentioned above. The main goal of the day is to formalize the physics required for realistic turning and speed for planes. Also, implementing rendering of the planes on the screen.
 
 Goals for the day:
 
 - Get full screen game board
 - Get a plane rendered with basic controls
 
-**Day 2**: The main goal of the day is to formalize the physics required for realistic turning and speed for planes. Also, implementing rendering of the planes on the screen. Finally, use the plane controller script to begin working on user input controller and testing for responsiveness.
+**Day 2**:  Use the plane controller script to begin working on user input controller and testing for responsiveness. Create pause and start functionality. Set the boundaries of the game board and create collisions between objects.
 
 Goals for the day:
 
 - Complete plane controller functionality
-- Render the planes
-- Implement control of the planes by user
+- Create pause and start functionality
+- Set wrapping boundaries on the board
+- Create collisions actions
 
-**Day 3**: Create pause and start functionality. Set the boundaries of the game board and create collisions between objects. Begin work on plane AI.
+**Day 3**:  Begin work on plane AI.
 
 Goals for the day:
 
-- Create pause and start functionality
-- Set wrapping boundaries on the board
+
 - Implement collisions between objects
 - Begin AI functionality
 
