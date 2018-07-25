@@ -21,7 +21,7 @@ In addition, this project will include:
 
 The game will consist of a single page with a fullscreen canvas and a top navigation bar with links to GitHub and my LinkedIn. The nav bar will also contain controls for start and stop buttons. The game controls will use arrow keys for movement and space bar for shooting. Colliding planes will destroy each other and map boundaries wrap around to the other side.
 
-![wireframe](https://raw.githubusercontent.com/The-Speck/fight+or+flight/assets/Fight_or_Flight.PNG)
+![wireframe](https://raw.githubusercontent.com/The-Speck/Fight-or-Flight/master/assets/Fight_or_Flight.png)
 
 ### Architecture and Technologies
 
