@@ -25,7 +25,7 @@ The game will consist of a single page with a fullscreen canvas and a top naviga
 
 ### Architecture and Technologies
 
-This project will be implemented mainly with `JavaScript`
+This project will be implemented mainly with `JavaScript` and `Keymaster`
 
 In addition to the entry file, there will be four main scripts involved in this project:
 
