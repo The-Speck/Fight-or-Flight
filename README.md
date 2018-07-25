@@ -53,17 +53,9 @@ Goals for the day:
 - Complete plane controller functionality
 - Create pause and start functionality
 - Set wrapping boundaries on the board
-- Create collisions actions
-
-**Day 3**:  Begin work on plane AI.
-
-Goals for the day:
-
-
 - Implement collisions between objects
-- Begin AI functionality
 
-**Day 4**: Program AI planes. Add different types of planes with similar attributes. Style everything, making it polished, clean-looking and professional.  
+**Day 3**:  Program AI planes. Add different types of planes with similar attributes. Style everything, making it polished, clean-looking and professional.
 
 Goals for the day:
 
