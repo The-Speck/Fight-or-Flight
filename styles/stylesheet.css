@@ -3,4 +3,28 @@ html, body {
   height: 100%;
   margin: 0px;
   overflow: hidden;
+  font-family: 'Russo One', sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+header, .links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+header {
+  border-bottom: 1px solid lightgray;
+}
+
+.links {
+  width: 15em;
+}
+
+.link-image {
+  width: 35px;
 }
