@@ -1,5 +1,7 @@
 ## Fight or Flight
 
+(Live Site)[https://the-speck.github.io/Fight-or-Flight/]
+
 ### Background
 
 Fight or Flight is a 2D air combat game for air superiority. Choose between different planes that have different attributes in speed and dexterity. Enemy planes will track and attempt to shoot you down. The goal is not only to survive but to thrive as king of the skies!

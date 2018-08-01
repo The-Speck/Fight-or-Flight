@@ -1,0 +1,1 @@
+webpack --watch lib/fight_or_flight.js -o lib/bundle.js --mode=development
