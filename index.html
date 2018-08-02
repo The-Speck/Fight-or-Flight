@@ -22,10 +22,64 @@
     </header>
 
     <main>
+      <div id='modal-pause'>
+        <div class="pause">
+          <span>||</span>
+        </div>
+      </div>
       <div id="modal">
         <div class="modal-content">
           <span class="close">&times;</span>
           <h1>Welcome to Fight || Flight</h1>
+          <form class='plane-form'>
+            <h3>Choose your fighter:</h3>
+            <div class="plane-options">
+              <label>
+                <input type="radio" value="0" name="plane" />
+                <img src="assets/plane0.png">
+                <span>Fortress</span>
+              </label>
+              <label>
+                <input type="radio" value="1" name="plane" />
+                <img src="assets/plane1.png">
+                <span>Predator</span>
+              </label>
+              <label>
+                <input type="radio" value="2" name="plane" />
+                <img src="assets/plane2.png">
+                <span>Raptor</span>
+              </label>
+              <label>
+                <input type="radio" value="3" name="plane" />
+                <img src="assets/plane3.png">
+                <span>Spirit</span>
+              </label>
+              <label>
+                <input type="radio" value="4" name="plane" />
+                <img src="assets/plane4.png">
+                <span>Raider</span>
+              </label>
+            </div>
+            <br>
+            <h3>Choose the difficulty:</h3>
+            <div class="game-diff">
+              <label>
+                <input type="radio" value="0" name="diff" />
+                <span>EASY</span>
+              </label>
+              <label>
+                <input type="radio" value="1" name="diff" />
+                <span>MEDIUM</span>
+              </label>
+              <label>
+                <input type="radio" value="2" name="diff" />
+                <span>HARD</span>
+              </label>
+            </div>
+            <br>
+            <hr>
+            <button type="button" name="button" class='start-button'>START</button>
+          <form>
         </div>
       </div>
 

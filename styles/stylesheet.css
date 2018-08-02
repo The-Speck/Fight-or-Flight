@@ -33,7 +33,7 @@ main {
   width: 35px;
 }
 
-.modal {
+#modal, #modal-pause {
     display: block;
     position: fixed;
     z-index: 1;
@@ -46,12 +46,22 @@ main {
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
+#modal-pause {
+  display: none;
+}
+
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 30%;
+}
+
+div.pause {
+  font-size: 20em;
+  text-align: center;
+  line-height: 2em;
 }
 
 .close {
@@ -67,3 +77,67 @@ main {
     text-decoration: none;
     cursor: pointer;
 }
+
+div.plane-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5em;
+}
+
+  form.plane-form input {
+    visibility: hidden;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+    div.plane-options span {
+      visibility: hidden;
+    }
+
+    div.plane-options input + img {
+      cursor:pointer;
+      transition: 2s;
+      transition-property: height;
+      height: 3em;
+    }
+
+    div.plane-options input:checked + img {
+      height: 5em;
+    }
+
+    div.plane-options input:checked + img + span {
+      visibility: visible;
+    }
+
+div.game-diff {
+  display: flex;
+  justify-content: space-around;
+  height: 2em;
+}
+
+  div.game-diff input + span {
+    cursor: pointer;
+  }
+
+  div.game-diff input:checked + span {
+    border-bottom: 2px solid;
+  }
+
+button.start-button {
+  margin: auto;
+  padding: 5px;
+  background: none;
+  border: none;
+  font-family: 'Russo One', sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+  display: block;
+}
+
+button.start-button:focus {
+  outline: none;
