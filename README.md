@@ -1,6 +1,6 @@
 ## Fight or Flight
 
-(Live Site)[https://the-speck.github.io/Fight-or-Flight/]
+[Live Site](https://the-speck.github.io/Fight-or-Flight/)
 
 ### Background
 
