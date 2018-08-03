@@ -31,7 +31,11 @@ main {
 }
 
 .link-image {
-  width: 35px;
+  height: 35px;
+}
+
+#controls {
+  width: 100%
 }
 
 #modal, #modal-pause, #gameover {
@@ -73,7 +77,7 @@ div.gameover-content > button {
 
 .modal-content {
     background-color: #fefefe;
-    margin: 10% auto;
+    margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 30%;
